@@ -10,10 +10,19 @@
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 <body>
-
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
-    </form>
-
+    <form action="/some-url" method="get" class="form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <label for="Email">Email:</label>
+    <input type="email" id="email" name="email">  
+    <label for="Comment">Comment:</label>
+    <textarea id="comment" name="comment" rows="12" cols="20"></textarea>
+      
+    <input class= "emailUpdate" type="checkbox" name="email updates" checked/> Recibe Email Updates?
+    <input class="button" type="button" value="Submit">
+    </form>  
+    
 </body>
+     
+    
 </html>

@@ -1,11 +1,32 @@
-body {
-    padding: 0;
-    margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
 
-}
-
-#form-container {
-    margin: auto;
-}
+    body{
+        background-color:rgb(25, 33, 41);
+        color:rgb(255,255,255);
+        text-align:left;
+        height: 80px;
+        width: 200px;      
+        }
+        
+        form{
+        display: row;
+        margin: 120px -170px 100px 170px;
+        border-color:rgb(67, 163, 230);
+        padding: 30px 60px 30px 60px;
+        border-style:solid;
+        border-top-width:2px;
+        border-right-width:2px;
+        border-bottom-width:2px;
+        border-left-width:2px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        }
+        
+        .emailUpdate {
+        font-style: italic;
+        }
+          
+        .button{
+          border-radius: 10px;
+          background-color:rgb(67, 163, 230);
+          color:rgb(255,255,255);
+        }
